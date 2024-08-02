@@ -1,0 +1,30 @@
+Correção do Peso da Fonte:
+Ao ajustar o valor de font-weight de 300px para 300, o texto agora exibe a espessura correta da fonte. Isso resultou em uma aparência de texto mais consistente e alinhada com o design desejado.
+
+Ajuste de Largura com max-width:
+A mudança de width: 1000px para max-width: 1000px nos elementos principais fez com que o layout se tornasse mais flexível e responsivo. O conteúdo agora se ajusta melhor em telas menores, 
+evitando que o site ultrapasse 1000px e melhorando a visualização em dispositivos de diferentes tamanhos.
+
+Padding Consistentes:
+Alterando o padding de em para rem, conseguimos um controle mais preciso sobre o espaçamento, alinhado ao tamanho da fonte raiz. Isso resultou em um layout mais uniforme e previsível, 
+facilitando o ajuste do design e melhorando a consistência do espaçamento em todo o site.
+
+Centralização da Navegação com Flexbox:
+Substituindo float: left por display: flex e justify-content: center, a navegação foi centralizada e os itens agora estão alinhados corretamente. 
+Esse ajuste simplifica o layout e melhora a responsividade, resolvendo problemas de alinhamento que poderiam ocorrer com o uso de float.
+
+Imagens Responsivas:
+Adicionando estilos como max-width: 100% e height: auto para imagens dentro de main, garantimos que elas se ajustem ao tamanho do contêiner sem distorcer. 
+A margem adicional em torno das imagens também melhorou o espaçamento, resultando em um layout mais limpo e organizado.
+
+Melhoria das Listas:
+Com a adição de padding-left para listas ordenadas e margin-bottom para itens de lista, a legibilidade e o alinhamento do texto foram aprimorados. 
+Essas mudanças garantem que as listas sejam exibidas de forma mais clara e ordenada, melhorando a estrutura do conteúdo.
+
+Posição do Footer:
+A remoção do bottom: 0 e a substituição por margin-top evitaram que o footer ficasse fixo na parte inferior da tela. Agora, ele tem um espaço adequado acima, evitando 
+sobreposições e proporcionando uma melhor separação entre o conteúdo e o rodapé.
+
+Responsividade com Media Queries:
+A inclusão de media queries para tamanhos de tela menores (768px e 480px) possibilitou ajustes no layout e no espaçamento em dispositivos móveis. 
+Isso garantiu que o site fosse visualmente agradável e funcional em diferentes tamanhos de tela, melhorando a experiência em dispositivos móveis.
